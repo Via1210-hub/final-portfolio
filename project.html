@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Projects</title>
+  <link rel="stylesheet" href="css/project.css" />
+</head>
+<body>
+  <header>
+    <h1>My Projects</h1>
+    <div class="controls">
+      <button id="darkModeToggle">🌙 Dark Mode</button>
+      <a href="index.html"><button>🏠 Back to Main</button></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="projects">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio showcasing my work, built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>A mobile-friendly weather app using OpenWeather API with real-time updates.</p>
+      </div>
+      <div class="project">
+        <h3>Task Manager</h3>
+        <p>A to-do list app built with React that helps users track daily tasks efficiently.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Maria Javia Magro</p>
+  </footer>
+
+  <script>
+    document.getElementById("darkModeToggle").addEventListener("click", function () {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+</body>
+</html>

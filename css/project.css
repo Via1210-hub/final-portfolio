@@ -1,0 +1,119 @@
+.project {
+    background: linear-gradient(to right, #fce4ec, #f8bbd0);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  body.dark-mode .project {
+    background: linear-gradient(to right, #3e3e3e, #2e2e2e);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fff0f5, #f8bbd0);
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: #f48fb1;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: papayawhip;
+    font-size: 2.5rem;
+  }
+  
+  .controls {
+    margin-top: 1rem;
+  }
+  
+  button, .back-button {
+    background-color: #f06292;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  button:hover, .back-button:hover {
+    background-color: #c2185b;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .projects {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .project {
+    background-color: #ffffffcc;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    color: #880e4f;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project p {
+    color: #4a148c;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  footer {
+    background-color: #f48fb1;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* DARK MODE */
+  body.dark-mode {
+    background: #2e2e2e;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode header,
+  body.dark-mode footer {
+    background-color: #424242;
+  }
+  
+  body.dark-mode .project {
+    background-color: #3e3e3e;
+  }
+  
+  body.dark-mode .project h3 {
+    color: #f8bbd0;
+  }
+  
+  body.dark-mode .project p {
+    color: #f3e5f5;
+  }
+    

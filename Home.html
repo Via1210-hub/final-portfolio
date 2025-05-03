@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maria Javia Magro | Home</title>
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+  <header>
+    <h1>Maria Javia B. Magro</h1>
+    <p id="greeting">Welcome to my personal website!</p>
+    <div class="buttons">
+      <button id="toggle-dark">🌙 Dark Mode</button>
+      <a href = "index.html"><button>🏠Back to Main</button></a>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="project.html">Projects</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Hello, I'm Maria Javia but you can call me "Via" 👩‍💻</h2>
+      <p>A passionate college student studying Information Technology. I enjoy designing websites, learning new tech, and building creative projects.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact me at: mariajaviabelandresmagro@gmail.com</p>
+  </footer>
+
+  <script>
+    // Dark Mode toggle functionality
+    document.getElementById("toggle-dark").addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+    function goToMain() {
+      alert("Returning to the main page...");
+    }
+  </script>
+
+</body>
+</html>

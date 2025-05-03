@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffe4ec, #f8bbd0);
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff0f5cc;
+  }
+  
+  header h1 {
+    color: palevioletred;
+    font-size: 2.5rem;
+  }
+  
+  #greeting {
+    color: peru;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .buttons {
+    margin-top: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #f06292;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #c2185b;
+  }
+  
+  nav {
+    background-color: #f48fb1;
+    padding: 0.5rem 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #fce4ec;
+  }
+  
+  main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro {
+    background: #ffffffcc;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .intro h2 {
+    color: #880e4f;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f48fb1;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background: #2e2e2e;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode header {
+    background-color: #424242;
+  }
+  
+  body.dark-mode nav {
+    background-color: #616161;
+  }
+  
+  body.dark-mode nav a {
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode nav a:hover {
+    color: #ffffff;
+  }
+  
+  body.dark-mode .intro {
+    background-color: #3e3e3e;
+  }
+  
+  body.dark-mode .intro h2 {
+    color: #f48fb1;
+  }
+  
+  body.dark-mode footer {
+    background-color: #424242;
+  }
+  

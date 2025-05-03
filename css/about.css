@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #fff5f8, #fce4ec);
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: pink;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  header h1 {
+    color: palevioletred;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .buttons {
+    margin-top: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #f06292;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #c2185b;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .about {
+    max-width: 800px;
+    background-color: #ffffffcc;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h2 {
+    color: #880e4f;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #4a148c;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f48fb1;
+    color: white;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background: #2e2e2e;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode header {
+    background-color: #424242;
+  }
+  
+  body.dark-mode .about {
+    background-color: #3e3e3e;
+  }
+  
+  body.dark-mode .about h2 {
+    color: #f48fb1;
+  }
+  
+  body.dark-mode .about p {
+    color: #f3e5f5;
+  }
+  
+  body.dark-mode footer {
+    background-color: #424242;
+  }
+  
